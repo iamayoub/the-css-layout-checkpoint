@@ -1,0 +1,218 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #787474;
+    background-color: hsl(0deg 0% 100%);
+   margin-left: 200px;
+   margin-right: 200px;
+  
+    
+ }
+.docplanner.header {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: baseline;
+    padding: 20px;
+    margin: 20px;
+ }
+ .docplanner.logo {
+   font-size: 30px;
+ }
+ a {
+    color: #bbbbbb;
+    text-decoration: none;
+ }
+ a:hover{ 
+    color: #00c3a5;
+ }
+
+.front {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.front.text {
+ display: flex;
+ flex-direction: row;
+ padding: 40px; 
+}
+.front-text1 {
+   padding: 10px;
+   
+}
+.front-text2{
+   padding: 10px;
+    }
+.services {
+   display: flex;
+   color: white;
+   
+}
+.choose.patients{
+   background-color: #00c3a5;
+} 
+.choose.doctors {
+   background-color: #3d83df;
+}
+.choose.clinics {
+   background-color: black;
+}
+.services-card {
+   padding: 15px;
+   border-radius: 10px;
+   margin:5px;
+   justify-content: space-between;
+}
+.services-select {
+   background-color:transparent;
+   padding: 5px;
+   border: none;
+   color: white;
+   text-decoration: underline;
+}
+.global {
+   margin: 10px;
+   display: flex;
+   padding: 10px;
+   flex-direction: row;
+   align-items:baseline;
+   text-align: center;
+   justify-content: space-around;
+}
+.global-company {
+   color: #00c3a5;
+   margin:20px;
+   padding: 20px;
+}
+.partners {
+   display: grid;
+   grid-template-columns: 110px 110px 110px 110px;
+   grid-gap: 20px;
+   grid-template-rows: 40px 40px;
+
+   }
+.stats {
+ margin:0px;
+   padding: 20px;
+   background-color:#daf7f6 ;
+   display: flex;
+   align-items: center;
+   justify-items: center;
+}
+.stats-text {
+   padding: 10px 30px 10px 150px  ;
+}
+.stats-text-blog {
+   font-size: 5px;
+}
+.the-grids {
+   padding: auto;
+   display: grid;
+   border: 1px bold red;
+   grid-template-columns: 200px 200px;
+   grid-gap: 50px;
+}
+.grid-leaders-title {
+color:#00c3a5;
+font-size: 10px;
+}
+.grid-leaders {
+   font-size: 5px;
+   padding: 20px;
+   background-color: white;
+   width: 150px;
+   height: 150px;
+   text-align: center;
+   justify-content: baseline;
+   border-radius: 5px;
+}
+.grid-patients-title {
+   color: #00c3a5;
+}
+.grid-patients{
+   font-size: 5px;
+   padding: 20px;
+   background-color: white;
+   width: 150px;
+   height: 150px;
+   text-align: center;
+   align-items: baseline;
+   border-radius: 5px;
+}
+.grid-appointments-title {
+   color: #00c3a5;
+}
+.grid-appointments {
+   font-size: 5px;
+   padding: 20px;
+   background-color: white;
+   width: 150px;
+   height: 150px;
+   text-align: center;
+   border-radius: 5px;
+}
+.grid-doctors-title {
+   color: #00c3a5;
+}
+.grid-doctors {
+   background-color: white;
+   font-size: 5px;
+   padding: 20px;
+   width: 150px;
+   height: 150px;
+   text-align: center;
+   border-radius: 5px;
+}
+.theimprove-section {
+   border: 50px;
+   align-items: center;
+   text-align: center;
+}
+.improve-text {
+   margin-top: 65px;
+   margin-bottom: 65px;
+}
+.improve-title {
+   color:#00c3a5;
+}
+.improve-blog {
+   color: #4fa6ed;
+   font-size: 15px;
+}
+.warsaw {
+   background-color:white;
+   border: 0px;
+   border-radius: 5px;
+   margin: 0px;
+   height: 400px;
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+}
+.warsaw .barcelona .munich .bologna .istanbul .rome .curitiba .mexico-city img {
+   border-radius: 5px;
+}
+.warsaw-button {
+  background-color: transparent;
+}
+.cities-grid {
+   display: grid;
+   grid-template-columns: 300px 300px 300px ;
+   grid-gap: 20px;
+   align-items: center;
+}
+.intresting{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   padding-top: 70px;
+}
+footer {
+   margin: 5px;
+   border: 10px black;
+   padding-top: 80px;
+   text-align: center;
+   font-size: 10px;
+   color: #abacb0;
+}
